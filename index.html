@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>check point4</title>
+    <link rel="stylesheet" href="style.css">
     <link rel = "icon" href = 
     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
             type = "image/x-icon">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+            
 </head>
 <body>
-    <header>
-        <nav >
-            <ul>
-            <li><a href="#jump">home</a></li>
-            <li><a href="#jump1">about</a></li>
-            <li><a href="#jump2">work</a></li>
-            <li><a href="#jump3">resume</a></li>
-            <li><a href="#">contact</a></li> 
-        </ul>
+      <header>
+        <a href="#" class="title">saif</a>
+        <nav class="navbar">
+            <a href="#jump">home</a>
+            <a href="#jump1">about</a>
+            <a href="#jump2">work</a>
+            <a href="#jump3">resume</a>
+            <a href="#jump4">contact</a> 
         </nav>
     </header>
     <main>
         <!--add video-->
-        <div id="jump">
+        <div id="jump" class="videos">
             <iframe  width="560" height="315" src="https://www.youtube.com/embed/YeyFwT1Dgbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <br>
@@ -39,7 +41,23 @@
         <br>
         <!--table-->
         <div>
-            <table id="jump2" border="1">
+            <table id="jump2" border="1" >
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                </tr>
+                      <table border="1">
                     <tr>
                       <th>Company</th>
                       <th>Contact</th>
@@ -56,26 +74,10 @@
                       <td>Mexico</td>
                     </tr>
                   </table>
-            <table border="1">
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th>
-                      <th>Country</th>
-                    </tr>
-                    <tr>
-                      <td>Alfreds Futterkiste</td>
-                      <td>Maria Anders</td>
-                      <td>Germany</td>
-                    </tr>
-                    <tr>
-                      <td>Centro comercial Moctezuma</td>
-                      <td>Francisco Chang</td>
-                      <td>Mexico</td>
-                    </tr>
                   </table>
-                </table>
+            
             </div>
-            <div>
+            <div >
                 <ol>
                     <li>Coffee</li>
                         <li>Tea</li>
@@ -104,12 +106,18 @@
                 <input type="number">
                 <br>
                 <br>
-                <input type="submit">
+                <input type="submit" class="button">
             </form>
         </div>
-        <footer>
-            <p>copyrights @saif</p>
-        </footer>
+        <footer id="jump4" class="foot">
+            <p class="pre">copyrights @saif</p>
+            <div class="icon">
+            <a href="#" ><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" ><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          </footer>
 
     </main>
 </body>
